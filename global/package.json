@@ -1,0 +1,8 @@
+{
+  "name": "global",
+  "version": "1.0.0",
+  "description": "Package containing global variables and config needed to be shared across packages.",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true
+}
