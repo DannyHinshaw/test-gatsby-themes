@@ -1,7 +1,7 @@
 const { meta } = require("global/index").siteData;
 const themeColor = "#663399";
 
-console.log("THIS IS BEING CALLED");
+console.log("IMPORTING LIGHT THEME");
 module.exports = {
 	plugins: [
 		{
