@@ -6,6 +6,7 @@
   "private": true,
   "devDependencies": {
     "gatsby": "^2.24.50",
+    "gatsby-layout-default": "*",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
