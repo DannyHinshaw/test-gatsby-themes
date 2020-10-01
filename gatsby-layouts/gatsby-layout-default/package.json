@@ -6,6 +6,7 @@
   "private": true,
   "devDependencies": {
     "gatsby": "^2.24.41",
+    "gatsby-site": "*",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0"

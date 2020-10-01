@@ -4,8 +4,18 @@
   "description": "Simple light theme for gatsby site.",
   "main": "index.js",
   "private": true,
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "yarn develop",
+    "serve": "yarn build && gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
   "devDependencies": {
     "gatsby": "^2.24.50",
+    "gatsby-layout-default": "*",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },

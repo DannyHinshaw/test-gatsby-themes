@@ -1,7 +1,7 @@
 const { gatsby, meta } = require("global/index").siteData;
 const themeColor = "#663399";
 
-console.log("IMPORT LIGHT THEME");
+console.log("CONFIG LIGHT THEME");
 module.exports = {
 	plugins: [
 		gatsby.layout,

@@ -1,2 +1,6 @@
-console.log("IMPORT DEFAULT LAYOUT");
-module.exports = {};
+console.log("CONFIG DEFAULT LAYOUT");
+module.exports = {
+	plugins: [
+		"gatsby-site"
+	]
+};
