@@ -1,9 +1,10 @@
-const { meta } = require("global/index").siteData;
+const { gatsby, meta } = require("global/index").siteData;
 const themeColor = "#663399";
 
-console.log("THIS IS BEING CALLED");
+console.log("IMPORT LIGHT THEME");
 module.exports = {
 	plugins: [
+		gatsby.layout,
 		{
 			resolve: "gatsby-plugin-manifest",
 			options: {

@@ -7,7 +7,6 @@ module.exports = {
     author: meta.author
   },
   plugins: [
-    gatsby.layout,
     gatsby.theme,
     "gatsby-plugin-sass",
     // this (optional) plugin enables Progressive Web App + Offline functionality
